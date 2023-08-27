@@ -167,6 +167,10 @@ main {
 }
 
 /* A summary of My Resume */
+.my-resume {
+    margin-top: 100px;
+}
+
 .resume-column-container {
     display: flex;
     gap: 50px;
@@ -178,8 +182,8 @@ main {
     font-weight: 700;
 }
 
-.resume-column-info{
-    padding: 30px;
+.resume-column-info {
+    /* padding: 30px; */
 }
 
 .resume-column-info-title {
@@ -203,15 +207,37 @@ main {
     font-weight: 400;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
 
 /* footer section */
-footer{
+footer {
     background: #FFF8F3;
     margin-top: 100px;
     padding: 130px 200px;
     display: flex;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-links a {
+    margin-right: 25px;
+}
+
+.feedback input[type="text"],
+.feedback input[type="email"],
+textarea {
+    display: block;
+    border-radius: 5px;
+    background: #FFF;
+    margin-bottom: 25px;
+    width: 100%;
+    padding: 18px 35px;
+    border: 0;
+    color: #474747;
 }
