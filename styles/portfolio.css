@@ -153,10 +153,6 @@ main {
     padding: 30px
 }
 
-.skill-image{
-    margin: 30px auto auto 30px;
-}
-
 .skill-title {
     color: #181818;
     text-align: center;
@@ -168,5 +164,46 @@ main {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
-    margin: auto 30px;
+}
+
+/* A summary of My Resume */
+.resume-column-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-column-info{
+    padding: 30px;
+}
+
+.resume-column-info-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-column-info-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.resume-column-info-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
